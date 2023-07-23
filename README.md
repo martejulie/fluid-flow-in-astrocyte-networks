@@ -67,7 +67,7 @@ docker run -ti -v $(pwd):/root/shared -w /root/shared ghcr.io/martejulie/fluid-f
 To install the `ffian`-library from source, navigate to the root of the repository and
 run the following commands from the command line:
 ```bash
-python3 -m pip install python/. --upgrade
+python3 -m pip install . --upgrade
 ```
 
 `ffian` requires `fenics-dolfin`, `numpy`, and `matplotlib`.
